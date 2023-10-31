@@ -68,3 +68,14 @@ Nomor revisi mengacu pada perubahan kecil atau perbaikan dalam perangkat lunak. 
 Nomor build adalah bagian dari sistem build number versioning yang paling sering berubah. Setiap kali perangkat lunak dikompilasi (dibangun) dari kode sumbernya, nomor build akan ditingkatkan. Ini biasanya mencakup perubahan yang sangat kecil, seperti perubahan kosmetik, perubahan konfigurasi, atau perubahan kecil lainnya yang tidak memengaruhi fungsionalitas utama perangkat lunak.
 
 Sistem build number versioning membantu tim pengembang melacak evolusi perangkat lunak dan memberikan pemahaman yang lebih baik tentang apa yang telah berubah dalam setiap iterasi. Ini juga memudahkan pengembang dalam melacak dan memecahkan masalah, karena mereka dapat merujuk ke nomor build tertentu untuk memahami riwayat perubahan dan menemukan penyebab masalah.
+
+## SemVer vs CalVer
+
+Perbandingan kunci antara keduanya adalah bahwa SemVer lebih fokus pada perubahan fungsional, sementara CalVer lebih fokus pada pengembangan seiring waktu. Pilihan antara SemVer dan CalVer bergantung pada preferensi dan kebutuhan pengembangan perangkat lunak. SemVer lebih sesuai untuk proyek yang memerlukan pengelolaan perubahan yang ketat dan kompatibilitas mundur yang jelas, sedangkan CalVer lebih sesuai untuk proyek yang ingin menyoroti perkembangan seiring waktu tanpa peduli tentang jenis perubahan spesifik.
+
+ Untuk proyek yang lebih bersifat eksperimental atau memiliki tujuan utama dalam melacak perkembangan seiring waktu, Calendar Versioning (CalVer) atau pendekatan lain mungkin lebih sesuai. Namun, SemVer tetap menjadi pilihan yang kuat untuk banyak proyek perangkat lunak yang ingin memprioritaskan stabilitas, kompatibilitas, dan keterbacaan.
+
+
+
+
+
