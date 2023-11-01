@@ -6,7 +6,7 @@ Branching Strategies adalah strategi yang diterapkan oleh tim pengembangan peran
 
 <img src= https://i.ytimg.com/vi/Bg8tiOLZw4A/maxresdefault.jpg>
 
-Branching memungkinkan tim pengembang untuk berkolaborasi dengan mudah di dalam satu basis kode pusat³. Ketika pengembang membuat cabang, sistem kontrol versi membuat salinan basis kode pada titik waktu tersebut³. Perubahan pada cabang tidak mempengaruhi pengembang lain dalam tim³.
+Branching memungkinkan tim pengembang untuk berkolaborasi dengan mudah di dalam satu basis kode pusat. Ketika pengembang membuat cabang, sistem kontrol versi membuat salinan basis kode pada titik waktu tersebut. Perubahan pada cabang tidak mempengaruhi pengembang lain dalam tim
 
 Strategi ini sangat penting dalam siklus hidup pengembangan perangkat lunak karena memungkinkan tim untuk bekerja secara paralel pada fitur yang berbeda tanpa mengganggu pekerjaan orang lain. Ini juga memfasilitasi proses seperti code review, integrasi terus menerus (CI), dan penyebaran terus menerus (CD) yang merupakan bagian penting dari praktik pengembangan perangkat lunak modern.
 
@@ -20,15 +20,15 @@ Dengan strategi branching yang efektif, tim dapat mengelola dan mengontrol perub
 
 Ada beberapa jenis strategi branching yang umum digunakan dalam pengembangan perangkat lunak, antara lain:
 
-1. **GitFlow**: GitFlow adalah salah satu strategi branching yang paling populer dan banyak digunakan¹. Strategi ini melibatkan dua cabang utama dengan durasi hidup tak terbatas: `master` dan `develop`. Cabang `master` mencerminkan versi produksi saat ini, sementara cabang `develop` adalah tempat pengembangan aktif berlangsung.
+1. **GitFlow**: GitFlow adalah salah satu strategi branching yang paling populer dan banyak digunakan . Strategi ini melibatkan dua cabang utama dengan durasi hidup tak terbatas: `master` dan `develop`. Cabang `master` mencerminkan versi produksi saat ini, sementara cabang `develop` adalah tempat pengembangan aktif berlangsung.
 
-2. **GitHub Flow**: GitHub Flow adalah strategi branching yang lebih sederhana dibandingkan GitFlow¹. Dalam GitHub Flow, tidak ada cabang `develop`. Sebaliknya, semua perubahan dilakukan di cabang fitur yang dibuat dari `master`, dan kemudian digabungkan kembali ke `master` ketika mereka siap untuk diterapkan.
+2. **GitHub Flow**: GitHub Flow adalah strategi branching yang lebih sederhana dibandingkan GitFlow . Dalam GitHub Flow, tidak ada cabang `develop`. Sebaliknya, semua perubahan dilakukan di cabang fitur yang dibuat dari `master`, dan kemudian digabungkan kembali ke `master` ketika mereka siap untuk diterapkan.
 
 3. **Trunk Based Development**: Trunk Based Development adalah strategi branching di mana semua pengembangan dilakukan di satu cabang utama (biasanya disebut `trunk` atau `main`), dengan cabang fitur yang digunakan hanya untuk perubahan jangka pendek. Tujuannya adalah untuk mendorong integrasi terus-menerus dan menghindari "merge hell" yang bisa terjadi ketika banyak cabang jangka panjang beroperasi secara simultan.
 
 4. **Release Branching**: Dalam strategi ini, rilis tertentu dikandung sepenuhnya dalam sebuah cabang. Ini berarti bahwa pada akhir siklus pengembangan, manajer rilis akan membuat cabang dari kode utama (misalnya, "cabang pengembangan 1.1"). Semua perubahan untuk rilis 1.1 harus diterapkan dua kali: sekali ke cabang 1.1 dan kemudian ke kode utama.
 
-5. **Feature Branching**: Cabang fitur sering dikaitkan dengan fitur bendera - "toggle" yang mengaktifkan atau menonaktifkan fitur dalam produk². Hal ini memudahkan penyebaran kode ke kode utama dan mengontrol kapan fitur diaktifkan, memudahkan penyebaran kode jauh sebelum fitur terpapar ke pengguna akhir.
+5. **Feature Branching**: Cabang fitur sering dikaitkan dengan fitur bendera - "toggle" yang mengaktifkan atau menonaktifkan fitur dalam produk. Hal ini memudahkan penyebaran kode ke kode utama dan mengontrol kapan fitur diaktifkan, memudahkan penyebaran kode jauh sebelum fitur terpapar ke pengguna akhir.
 
 Setiap strategi memiliki kelebihan dan kekurangan tersendiri, dan tim harus memilih strategi yang paling sesuai dengan kebutuhan mereka.
 
@@ -44,7 +44,7 @@ Setiap strategi memiliki kelebihan dan kekurangan tersendiri, dan tim harus memi
 
 GitFlow adalah salah satu strategi branching yang sangat populer dan banyak digunakan. Strategi ini melibatkan dua cabang utama dengan durasi hidup tak terbatas: `master` dan `develop`. Cabang `master` mencerminkan versi produksi saat ini, sementara cabang `develop` adalah tempat pengembangan aktif berlangsung.
 
-GitFlow adalah pola branching model yang digunakan pada suatu kolaborasi menggunakan version control GIT. Pada setiap branch, nantinya akan disatukan dan menghasilkan suatu produk yang utuh. Model ini dinilai merupakan suatu hal yang cocok untuk melakukan kolaborasi dan mengukur pekerjaan suatu developer team³.
+GitFlow adalah pola branching model yang digunakan pada suatu kolaborasi menggunakan version control GIT. Pada setiap branch, nantinya akan disatukan dan menghasilkan suatu produk yang utuh. Model ini dinilai merupakan suatu hal yang cocok untuk melakukan kolaborasi dan mengukur pekerjaan suatu developer team.
 
 GitFlow membagi repo kedalam 2 branch utama, yaitu master dan develop. Branch master adalah branch yang siap atau yang sedang live di production, sedangkan branch develop adalah branch yang masih dalam tahap pengembangan.
 
